@@ -48,7 +48,7 @@ a {
   display: none;
 }
 
-.header_logo_cont, .header_number, .header_salon_menu, .header_button_cont, .header_social_cont {
+.header_logo_cont, .header_number, .header_salon_menu, .header_button_cont, .header_social_cont  {
   border-left: 1px solid #C4C4C4;
   border-right: 1px solid #C4C4C4;
 }
