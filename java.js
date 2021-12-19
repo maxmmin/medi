@@ -72,5 +72,5 @@ burgermenu()
     slider()
 }
 
-func()
+window.onload = func()
 
