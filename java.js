@@ -12,6 +12,8 @@ function burgermenu() {
 
             burger.addEventListener('click', () => {
               try {
+                let height = window.innerHeight
+                menu.style.height = height
                 html.classList.toggle('active')
                 body.classList.toggle('active')
                 burger.classList.toggle('active')
