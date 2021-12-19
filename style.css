@@ -1162,6 +1162,10 @@ a {
   .m_introducion_text {
     width: initial;
   }
+  .prefooter {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 @media (max-width: 793px) {
@@ -1479,6 +1483,9 @@ a {
   }
   .contacts_section-number {
     margin-bottom: 0px;
+  }
+  .firstpage_buttons_bigbutton, .firstpage_buttons_twobuttons {
+    min-width: 190px;
   }
 }
 /*# sourceMappingURL=style.css.map */
