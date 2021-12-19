@@ -99,7 +99,6 @@ a {
   padding: 0 5px;
 }
 
-
 .header_salon_menu {
   max-width: 199px;
   width: 100%;
@@ -403,10 +402,15 @@ a {
 }
 
 .firstpage_buttons_bigbutton {
-  background: #00868A;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+
+.bigbutton {
+  background: #00868A;
+  width: 100%;
+  height: 100%;
 }
 
 .firstpage_buttons_twobuttons {
@@ -1258,8 +1262,29 @@ a {
   .firstpage_buttons_section {
     margin-top: 2.14286rem;
   }
+}
+
+@media (max-width: 680px) {
+  .firstpage_buttons_section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .firstpage_buttons_bigbutton {
+    min-width: 340px;
+    display: block;
+  }
+  .bigbutton {
+    padding: 10px;
+  }
+  .firstpage_buttons_twobuttons {
+    min-width: 340px;
+  }
   .littlebutton:first-child {
     border: 5px solid #00868A;
+    padding: 5px;
+  }
+  .littlebutton {
+    padding: 10px;
   }
 }
 
@@ -1272,6 +1297,9 @@ a {
   }
   .news_maintext {
     border-top: 4px solid white;
+  }
+  .nav_buttontext {
+    text-transform: uppercase;
   }
   .propositions_section {
     margin-top: 5px;
@@ -1422,18 +1450,6 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
     max-width: initial;
-  }
-  .firstpage_buttons_section {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .firstpage_buttons_bigbutton {
-    min-width: 120px;
-    padding: 10px;
-    display: block;
-  }
-  .firstpage_buttons_twobuttons {
-    min-width: 120px;
   }
 }
 
