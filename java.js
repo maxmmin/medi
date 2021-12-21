@@ -61,7 +61,7 @@ burgermenu()
 
     function slider() {
 
-        var slide = document.querySelector('.slide0')
+      
         var slideline = document.querySelector('.slide-line')
         var arrowright = document.querySelector('.arrowright')
         var arrowleft = document.querySelector('.arrowleft')
@@ -150,7 +150,7 @@ newsmodal()
 function switchcard() {
     var mass = document.querySelectorAll('.modifbl')
     var switchmenu = document.querySelector('.proposition_modal')
-    var n = 0;
+
     var switchback = document.querySelectorAll('.switchback')
     var toparrow = document.querySelector('.modal_left-ar') 
     var bottomarrow = document.querySelector('.modal_right-ar')
@@ -166,7 +166,7 @@ function switchcard() {
             switchmenu.style.display='none'
         },300)
         }
-    switchback[n].addEventListener('click', exit)
+    switchback[index].addEventListener('click', exit)
 
     bottomarrow.addEventListener('click', () =>{
 
@@ -181,10 +181,10 @@ function switchcard() {
          mass[index].classList.remove('recnext')
          mass[index].classList.add('recent')
          
-         switchback[n].removeEventListener('click', exit)
+         switchback[index-1].removeEventListener('click', exit)
         
-         n=n+1
-         switchback[n].addEventListener('click', exit)
+         
+         switchback[index].addEventListener('click', exit)
          
     })
 
@@ -199,20 +199,16 @@ function switchcard() {
         mass[index].classList.remove('recbefore')
         mass[index].classList.add('recent')
         
-        switchback[n].removeEventListener('click', exit)
+        switchback[index+1].removeEventListener('click', exit)
         
-         n=n-1
-         switchback[n].addEventListener('click', exit)
+         
+         switchback[index].addEventListener('click', exit)
     })
 }
 
 function switchmenu() {
     var switchmenu = document.querySelector('.proposition_modal')
     var switchbutton = document.querySelector('.propositions-modal_button')
-    
-   
-    
-   
 
     switchbutton.addEventListener('click', () => {
         switchmenu.style.display='flex'
