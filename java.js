@@ -227,7 +227,7 @@ switchmenu()
 
 }
 
-window.onload = func()
+window.onload = func
 
 }
 
