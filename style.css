@@ -910,7 +910,7 @@ a {
   margin-left: 5rem;
 }
 
-.footer_ins > .header_button_cont, .header_social_cont {
+.footer_ins > .header_button_cont, .footer_ins > .header_social_cont {
   border: 1px solid #C4C4C4;
 }
 
