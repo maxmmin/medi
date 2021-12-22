@@ -873,6 +873,7 @@ a {
 
 .contacts_section-number {
   margin-bottom: 2.14286rem;
+  white-space: nowrap;
 }
 
 .contacts_section-button1 {
@@ -1115,6 +1116,10 @@ a {
   .confbr {
     display: none;
   }
+  .prefooter {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -1123,6 +1128,9 @@ a {
   }
   .text_name {
     display: none;
+  }
+  .m_introducion_button {
+    margin-top: 30px;
   }
   .switchers-div {
     padding-bottom: 2.14286rem;
@@ -1324,6 +1332,12 @@ a {
   .confidence_block {
     max-width: 100%;
   }
+  .prefooter {
+    -webkit-column-gap: 40px;
+            column-gap: 40px;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -1341,6 +1355,13 @@ a {
     max-width: 700px;
     margin-left: auto;
   }
+  .m_introducion_button {
+    margin-top: 40px;
+  }
+  /*.propositions_recent {
+        padding-right: 20px;
+        padding-left: 20px;
+    }*/
   .switchers-div {
     padding: 0;
     margin-top: auto;
@@ -1351,6 +1372,16 @@ a {
   }
   .m_introducion_text {
     width: initial;
+  }
+  .prefooter {
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+  }
+  .sercvices_section {
+    -webkit-column-gap: 17%;
+            column-gap: 17%;
   }
 }
 
