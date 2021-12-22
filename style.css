@@ -1097,9 +1097,8 @@ a {
   .firstpage {
     margin-left: 10px;
     margin-right: 10px;
-  }
-  .fp_inner_nav {
-    padding: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .firstpage_inner_main {
     padding: 0 10px;
@@ -1146,6 +1145,14 @@ a {
     display: -ms-flexbox;
     display: flex;
     position: relative;
+  }
+  .firstpage {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .fp_inner_nav {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .menu {
     -ms-flex-negative: 0;
