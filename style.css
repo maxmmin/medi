@@ -1009,18 +1009,18 @@ a {
 }
 
 .modifbl.recent {
-  -webkit-transform: rotateX(0) perspective(500);
-          transform: rotateX(0) perspective(500);
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
 }
 
 .recnext {
-  -webkit-transform: rotateX(-180deg) perspective(500);
-          transform: rotateX(-180deg) perspective(500);
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
 }
 
 .recbefore {
-  -webkit-transform: rotateX(180deg) perspective(500);
-          transform: rotateX(180deg) perspective(500);
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
 }
 
 .service_li.modif {
@@ -1358,10 +1358,6 @@ a {
   .m_introducion_button {
     margin-top: 40px;
   }
-  /*.propositions_recent {
-        padding-right: 20px;
-        padding-left: 20px;
-    }*/
   .switchers-div {
     padding: 0;
     margin-top: auto;
@@ -1766,6 +1762,12 @@ a {
   }
   .contacts_section {
     margin-top: 2.85714rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
   }
 }
 
