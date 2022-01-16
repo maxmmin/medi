@@ -10,6 +10,10 @@ body * {
   font-family: 'Gilroy';
 }
 
+span.header_buttontext, span.nav_buttontext, span.firstpage_buttons_buttontext, span.prop-modal_button-text, span.contacts_button-text, span.intro_buttontext {
+  display: block;
+}
+
 button {
   font-size: 1em;
   color: initial;
